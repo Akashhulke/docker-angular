@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: akashhulke/frontendprod:latest
+          image: akashhulke/frontendprod:0aecec1613821c91e5b227058b9ea59243a5a9ee
           imagePullPolicy: Always
           ports:
             - containerPort: 80
